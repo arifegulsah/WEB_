@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Montserrat", "sans-serif";
+	background: url('../img/bg11.jpg') #ea8d8d !important;
+}
+
+.container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.sutunlar{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: pink;
+	flex: 1;
+	transition: all .5s;
+}
+
+.sutunlar:hover{
+	flex: 1.5;
+}
+
+.left-side{
+	background: #ea8d8d;
+	background-position: center;
+	background-size: auto;
+	background-blend-mode: multiply;
+	opacity: 0.2;
+}
+
+
+.right-side{
+	background: #ea8d8d;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	opacity: 0.2;
+}
+
+.language{
+	position: fixed !important;
+	float: right;
+	right: 20px;
+	top: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.language:hover{
+	cursor: pointer;
+	color: pink;
+	transition: all .5s;
+}
+
+.buttonbox{
+	background: transparent;
+	border-style: none;
+	border-radius: 30px;
+	height: 40vh;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+}
+
+.left-side:hover{
+	opacity: .7;
+}
+
+.right-side:hover{
+	opacity: .7;
+}
+
+.buttonbox:hover{
+	color: #D8DEBF;
+	transition: all .5s;
+	opacity: 1;
+}
+
